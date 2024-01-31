@@ -1829,7 +1829,7 @@ void Menu_Cache( void )
 		UI_InitBannerFont( &uis.fontPropB );
 	}
 
-	uis.cursor          = trap_R_RegisterShaderNoMip( "menu/art/3_cursor2" );
+	uis.cursor          = trap_R_RegisterShaderNoMip( "menu/common/cursor" );
 	uis.rb_on           = trap_R_RegisterShaderNoMip( "menu/art/switch_on" );
 	uis.rb_off          = trap_R_RegisterShaderNoMip( "menu/art/switch_off" );
 
